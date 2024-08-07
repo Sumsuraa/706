@@ -1,0 +1,77 @@
+-------Train data--------
+sentiment
+neutral     10704
+positive     8375
+negative     7673
+Name: count, dtype: int64
+26752
+-------------------------
+-------Test data--------
+sentiment
+neutral     1376
+positive    1075
+negative     983
+Name: count, dtype: int64
+3434
+-------------------------
+Train Max Sentence Length: 33
+Test Max Sentence Length: 32
+Train data len: 21401
+Class distribution Counter({0: 8563, 2: 6700, 1: 6138})
+Valid data len: 5351
+Class distribution Counter({0: 2141, 2: 1675, 1: 1535})
+Test data len: 3434
+Class distribution Counter({0: 1376, 2: 1075, 1: 983})
+| epoch   1 |   500/ 1338 batches | accuracy    0.474
+| epoch   1 |  1000/ 1338 batches | accuracy    0.570
+-----------------------------------------------------------
+| end of epoch   1 | time:  7.66s | valid accuracy    0.596
+-----------------------------------------------------------
+| epoch   2 |   500/ 1338 batches | accuracy    0.635
+| epoch   2 |  1000/ 1338 batches | accuracy    0.639
+-----------------------------------------------------------
+| end of epoch   2 | time:  7.87s | valid accuracy    0.651
+-----------------------------------------------------------
+| epoch   3 |   500/ 1338 batches | accuracy    0.685
+| epoch   3 |  1000/ 1338 batches | accuracy    0.686
+-----------------------------------------------------------
+| end of epoch   3 | time:  7.74s | valid accuracy    0.643
+-----------------------------------------------------------
+| epoch   4 |   500/ 1338 batches | accuracy    0.765
+| epoch   4 |  1000/ 1338 batches | accuracy    0.760
+-----------------------------------------------------------
+| end of epoch   4 | time:  7.67s | valid accuracy    0.679
+-----------------------------------------------------------
+| epoch   5 |   500/ 1338 batches | accuracy    0.783
+| epoch   5 |  1000/ 1338 batches | accuracy    0.783
+-----------------------------------------------------------
+| end of epoch   5 | time:  7.82s | valid accuracy    0.680
+-----------------------------------------------------------
+| epoch   6 |   500/ 1338 batches | accuracy    0.800
+| epoch   6 |  1000/ 1338 batches | accuracy    0.795
+-----------------------------------------------------------
+| end of epoch   6 | time:  8.01s | valid accuracy    0.682
+-----------------------------------------------------------
+| epoch   7 |   500/ 1338 batches | accuracy    0.814
+| epoch   7 |  1000/ 1338 batches | accuracy    0.814
+-----------------------------------------------------------
+| end of epoch   7 | time:  7.79s | valid accuracy    0.678
+-----------------------------------------------------------
+| epoch   8 |   500/ 1338 batches | accuracy    0.829
+| epoch   8 |  1000/ 1338 batches | accuracy    0.820
+-----------------------------------------------------------
+| end of epoch   8 | time:  7.99s | valid accuracy    0.678
+-----------------------------------------------------------
+| epoch   9 |   500/ 1338 batches | accuracy    0.831
+| epoch   9 |  1000/ 1338 batches | accuracy    0.829
+-----------------------------------------------------------
+| end of epoch   9 | time:  7.80s | valid accuracy    0.679
+-----------------------------------------------------------
+| epoch  10 |   500/ 1338 batches | accuracy    0.824
+| epoch  10 |  1000/ 1338 batches | accuracy    0.832
+-----------------------------------------------------------
+| end of epoch  10 | time:  7.81s | valid accuracy    0.679
+-----------------------------------------------------------
+Checking the results of test dataset.
+test accuracy    0.690
+Modal checkpoint is saved as ./model.pth
